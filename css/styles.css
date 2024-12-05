@@ -1,0 +1,181 @@
+/*======Нормалізація======*/
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*============Header============*/
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-web {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  color: #2e2f42;
+}
+
+.navigation-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.navigation-list-nav {
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.navigation-list-nav:hover,
+.navigation-list-nav:focus {
+  color: #404bbf;
+}
+
+.navigation-adress {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+}
+
+.navigation-adress-cont {
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+
+.navigation-adress-cont:hover,
+.navigation-adress-cont:focus {
+  color: #404bbf;
+}
+
+/*============Main============*/
+/*======Hero======*/
+.main {
+  background-color: #2e2f42;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.button-orderservice {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.button-orderservice:hover,
+.button-orderservice:focus {
+  background-color: #404bbf;
+}
+
+/*=======Секція advantages-title=======*/
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/*===========Секція Our Time==========*/
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.our-team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.our-team-image {
+  background-color: #ffffff;
+}
+
+.our-team-title-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/*==========Секція Our Portfolio==========*/
+.our-portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.our-portfolio-title-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/*============Footer============*/
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo-web {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+/*======Заголовки h3 на всьому сайті======*/
+.h3-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/*Текст на всьму сайті*/
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
