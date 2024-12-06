@@ -37,8 +37,8 @@ img {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 141px;
-  margin-right: 141px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*============Header============*/
@@ -49,6 +49,7 @@ img {
 .header .container {
   display: flex;
   margin: 0 auto;
+  align-items: center;
 }
 
 .logo {
@@ -73,6 +74,7 @@ img {
 .navigation {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .navigation-list {
@@ -119,6 +121,13 @@ img {
 
 /*============Main============*/
 /*======Hero======*/
+
+.container .main-title,
+.button-orderservice {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .main {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -132,6 +141,7 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .button-orderservice {
@@ -298,6 +308,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 /*======Заголовки h3 на всьому сайті======*/
